@@ -782,3 +782,35 @@ h3 {
     }
 }
 
+
+.calendar-add {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.calendar-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    padding: 14px 30px;
+    border-radius: 50px;
+    font-family: 'Cinzel', serif;
+    letter-spacing: 2px;
+    font-size: 0.85rem;
+    color: var(--gold);
+    border: 1px solid var(--gold);
+    text-decoration: none;
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(6px);
+    transition: all 0.3s ease;
+}
+
+.calendar-btn i {
+    font-size: 1rem;
+}
+
+.calendar-btn:hover {
+    background: var(--gold);
+    color: #000;
+    transform: scale(1.05);
+}
